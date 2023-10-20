@@ -25,5 +25,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void _swap(int *num1, int *num2);
+void quick_sort(int *array, size_t size);
+int subset_lomuto_partition(int *array, size_t size, int _left, int _right);
+void recurse_lomuto_sort(int *array, size_t size, int _left, int _right);
 
 #endif /* _SORT_H_ */
