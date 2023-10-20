@@ -31,6 +31,6 @@ void recurse_lomuto_sort(int *array, size_t size, int _left, int _right);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void _swap_nodes(listint_t **_list, listint_t *_node);
-
+void counting_sort(int *array, size_t size);
 
 #endif /* _SORT_H_ */
